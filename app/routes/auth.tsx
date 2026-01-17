@@ -11,24 +11,12 @@ export const meta: () => any = () => ([
 const Auth = () => {
     const { isLoading, auth } = usePuterStore();
     const location = useLocation();
+    const next = location.search.split('next=')[1];
     const navigate = useNavigate();
 
-    const next = new URLSearchParams(location.search).get("next")
-
     useEffect(() => {
-        if (!auth.isAuthenticated) return
-
-        // Case 1: redirected login (protected route)
-        if (next) {
-            navigate(next)
-            return
-        }
-
-        // Case 2: user logged in directly on /auth
-        if (location.pathname === "/auth") {
-            navigate("/home")
-        }
-    }, [auth.isAuthenticated, next, navigate, location.pathname])
+        if(auth.isAuthenticated) navigate(next);
+    }, [auth.isAuthenticated, next])
 
 
     return (

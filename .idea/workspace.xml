@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07cb0e27-222a-4b7d-b232-d45d59dcc68a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/ResumeCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ScoreCircle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/puter.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ATS.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Details.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/FileUploader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/pdf2img.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/resume.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes/upload.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/puter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/puter.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/auth.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/routes/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/logo-dark.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/logo-light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/welcome/welcome.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/constants/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "ts.external.directory.path": "/Users/aishwarya/WebstormProjects/ai-resume-analyzer/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -76,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1767772286424</updated>
-      <workItem from="1767772287388" duration="45270000" />
+      <workItem from="1767772287388" duration="90465000" />
     </task>
     <servers />
   </component>

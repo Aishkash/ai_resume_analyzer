@@ -17,14 +17,14 @@ export const meta: Route.MetaFunction = () => {
 };
 
 export default function Home() {
-    const { auth } = usePuterStore();
+    const { auth, kv } = usePuterStore();
     const navigate = useNavigate();
-
-    // const next = location.search.split("next=")[1] || "/";
+    // const [resumes, setResumes] = useState<Resume[]>([]);
+    // const [loadingResumes, setLoadingResumes] = useState(false);
 
     useEffect(() => {
-        if (!auth.isAuthenticated) navigate('/auth?next=/') ;
-    }, [auth.isAuthenticated]);
+        if(!auth.isAuthenticated) navigate('/auth?next=/');
+    }, [auth.isAuthenticated])
 
     return (
         <main className="min-h-screen bg-[url('/images/bg-main.svg')] bg-cover bg-center">
